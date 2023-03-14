@@ -2,6 +2,7 @@
   "name": "Hey Andromeda",
   "lang": "en-us",
   "tts_voices": [
+    "coqui_en-US_en-US.json",
     "ovos-tts-plugin-mimic3_en_UK_apope_low_default.json",
     "ovos-tts-plugin-mimic3_en_US_cmu-arctic_low_slt.json",
     "ovos-tts-plugin-mimic3_en_US_cmu-arctic_low_awb.json",
