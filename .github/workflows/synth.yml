@@ -9,11 +9,10 @@ jobs:
   synth_and_publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: dev
           path: auto_synth
-          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
       - name: Setup Python
         uses: actions/setup-python@v1
         with:
@@ -34,4 +33,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: New samples
-          add: 'auto_synth/synth_data'
+          add: 'synth_data/*.wav --force'
+          cwd: 'auto_synth'
