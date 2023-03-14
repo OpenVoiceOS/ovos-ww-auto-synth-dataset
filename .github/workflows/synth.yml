@@ -30,8 +30,8 @@ jobs:
       - name: Do the Synth
         run: |
           python auto_synth/scripts/create.py
-      - name: Commit to dev
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit samples
+        uses: EndBug/add-and-commit@v9
         with:
-          commit_message: New samples
-          branch: dev
+          message: New samples
+          add: 'auto_synth/synth_data'
