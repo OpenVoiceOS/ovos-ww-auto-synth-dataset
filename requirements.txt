@@ -1,3 +1,4 @@
 ovos-tts-plugin-mimic3
 ovos-tts-plugin-google-tx
+ovos-tts-plugin-privox
 ovos-plugin-manager>=0.0.21
