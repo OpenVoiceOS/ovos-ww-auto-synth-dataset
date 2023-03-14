@@ -1,0 +1,4 @@
+{
+    "preferred_model": "tacotron2-DDC",
+    "module": "mozilla_local"
+}

@@ -1,3 +1,5 @@
 ovos-tts-plugin-mimic3
-neon-tts-plugin-coqui-remote
 ovos-plugin-manager>=0.0.21
+
+# legacy plugins
+neon-tts-plugin-mozilla_local
