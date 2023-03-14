@@ -2,5 +2,5 @@ ovos-tts-plugin-mimic3
 ovos-tts-plugin-google-tx
 ovos-plugin-manager>=0.0.21
 # ovos-tts-plugin-deepponies
-git+https://github.com/OpenVoiceOS/ovos-tts-plugin-deepponies
+# git+https://github.com/OpenVoiceOS/ovos-tts-plugin-deepponies
 ovos-tts-plugin-privox
