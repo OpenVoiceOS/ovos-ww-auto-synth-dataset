@@ -2,6 +2,8 @@
   "name": "Hey Neon",
   "lang": "en-us",
   "tts_voices": [
+    "ovos-tts-plugin-privox_voice1_male.json",
+    "ovos-tts-plugin-privox_voice2_female.json",
     "ovos-tts-plugin-deepponies_Barack Obama_en.json",
     "ovos-tts-plugin-deepponies_Billie Eilish_en.json",
     "ovos-tts-plugin-deepponies_Donald Trump_en.json",
