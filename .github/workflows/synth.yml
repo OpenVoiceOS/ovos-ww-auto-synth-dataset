@@ -20,12 +20,12 @@ jobs:
       - name: Install Build Tools
         run: |
           python -m pip install build wheel
+      - name: Install libs
+        run: |
+          sudo apt-get install libespeak-ng1 ffmpeg
       - name: Install TTS Plugins
         run: |
           python -m pip install -r auto_synth/requirements.txt
-      - name: Install libespeak-ng1
-        run: |
-          sudo apt-get install libespeak-ng1
       - name: Do the Synth
         run: |
           python auto_synth/scripts/create.py
