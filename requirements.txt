@@ -1,5 +1,2 @@
 ovos-tts-plugin-mimic3
 ovos-plugin-manager>=0.0.21
-
-# legacy plugins
-neon-tts-plugin-mozilla_local
