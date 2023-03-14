@@ -8,6 +8,8 @@ WW_CFGS = f"auto_synth/ww_configs"
 VOICES_BASE = f"auto_synth/tts_voices"
 OUTPUT_BASE = f"auto_synth/synth_data"
 
+engines = {}
+
 for cfg in listdir(WW_CFGS):
     with open(f"{WW_CFGS}/{cfg}") as f:
         CONF = json.load(f)
@@ -29,11 +31,19 @@ for cfg in listdir(WW_CFGS):
         m = cfg.pop("module")
 
         try:
-            engine = load_tts_plugin(m)(config=cfg)
+            if m in engines:
+                engine = engines[m]
+            else:
+                engine = engines[m] = load_tts_plugin(m)(config=cfg)
             wav_file = f"{OUTPUT_FOLDER}/{voice.replace('.json', f'.{engine.audio_ext}')}"
             if isfile(wav_file):
                 continue
-            engine.get_tts(WW, wav_file)
+            kwargs = {}
+            if "speaker" in cfg:
+                kwargs["speaker"] = cfg["speaker"]
+            if "voice" in cfg:
+                kwargs["voice"] = cfg["voice"]
+            engine.get_tts(WW, wav_file, **kwargs)
             if "server" in voice:
                 sleep(1)  # do not overload public servers
         except:
