@@ -28,10 +28,14 @@ for cfg in listdir(WW_CFGS):
             cfg = json.load(f)
         m = cfg.pop("module")
 
-        engine = load_tts_plugin(m)(config=cfg)
-        wav_file = f"{OUTPUT_FOLDER}/{voice.replace('.json', f'.{engine.audio_ext}')}"
-        if isfile(wav_file):
+        try:
+            engine = load_tts_plugin(m)(config=cfg)
+            wav_file = f"{OUTPUT_FOLDER}/{voice.replace('.json', f'.{engine.audio_ext}')}"
+            if isfile(wav_file):
+                continue
+            engine.get_tts(WW, wav_file)
+            if "server" in voice:
+                sleep(1)  # do not overload public servers
+        except:
+            # bad plugin, oopsie
             continue
-        engine.get_tts(WW, wav_file)
-        if "server" in voice:
-            sleep(1)  # do not overload public servers
