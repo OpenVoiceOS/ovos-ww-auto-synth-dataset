@@ -1,2 +1,2 @@
-ovos-tts-plugin-mimic3[all]
+ovos-tts-plugin-mimic3
 ovos-plugin-manager>=0.0.21
