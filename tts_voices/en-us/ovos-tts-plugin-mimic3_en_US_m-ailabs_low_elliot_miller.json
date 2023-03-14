@@ -1,0 +1,5 @@
+{
+    "speaker": "elliot_miller",
+    "voice": "en_US/m-ailabs_low",
+    "module": "ovos-tts-plugin-mimic3"
+}

@@ -1,0 +1,5 @@
+{
+    "speaker": "default",
+    "voice": "en_UK/apope_low",
+    "module": "ovos-tts-plugin-mimic3"
+}

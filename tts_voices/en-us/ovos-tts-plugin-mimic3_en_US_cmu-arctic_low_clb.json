@@ -1,0 +1,5 @@
+{
+    "speaker": "clb",
+    "voice": "en_US/cmu-arctic_low",
+    "module": "ovos-tts-plugin-mimic3"
+}

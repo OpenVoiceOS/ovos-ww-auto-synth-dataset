@@ -1,0 +1,5 @@
+{
+    "speaker": "p340",
+    "voice": "en_US/vctk_low",
+    "module": "ovos-tts-plugin-mimic3"
+}
