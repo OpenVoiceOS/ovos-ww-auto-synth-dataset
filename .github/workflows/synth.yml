@@ -20,9 +20,9 @@ jobs:
       - name: Install Build Tools
         run: |
           python -m pip install build wheel
-     - name: Install Requirements
-       run: |
-         python -m pip install -r requirements.txt
+      - name: Install Requirements
+        run: |
+           python -m pip install -r requirements.txt
       - name: Do the Synth
         run: |
           python scripts/create.py
