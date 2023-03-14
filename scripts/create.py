@@ -4,9 +4,9 @@ from os.path import dirname, isfile
 from time import sleep
 from ovos_plugin_manager.tts import load_tts_plugin
 
-WW_CFGS = f"../ww_configs"
-VOICES_BASE = f"../tts_voices"
-OUTPUT_BASE = f"../synth_data"
+WW_CFGS = f"auto_synth/ww_configs"
+VOICES_BASE = f"auto_synth/tts_voices"
+OUTPUT_BASE = f"auto_synth/synth_data"
 
 for cfg in listdir(WW_CFGS):
     with open(f"{WW_CFGS}/{cfg}") as f:
