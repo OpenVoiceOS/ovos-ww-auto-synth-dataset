@@ -1,0 +1,5 @@
+{
+    "speaker": "5421",
+    "voice": "it_IT/mls_low",
+    "module": "ovos-tts-plugin-mimic3"
+}

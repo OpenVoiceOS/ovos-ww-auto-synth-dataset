@@ -1,0 +1,5 @@
+{
+    "speaker": "default",
+    "voice": "de_DE/thorsten_low",
+    "module": "ovos-tts-plugin-mimic3"
+}

@@ -1,0 +1,5 @@
+{
+    "speaker": "disgusted",
+    "voice": "de_DE/thorsten-emotion_low",
+    "module": "ovos-tts-plugin-mimic3"
+}

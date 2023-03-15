@@ -1,0 +1,5 @@
+{
+    "speaker": "default",
+    "voice": "es_ES/carlfm_low",
+    "module": "ovos-tts-plugin-mimic3"
+}

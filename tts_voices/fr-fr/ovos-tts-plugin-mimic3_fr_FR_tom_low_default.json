@@ -1,0 +1,5 @@
+{
+    "speaker": "default",
+    "voice": "fr_FR/tom_low",
+    "module": "ovos-tts-plugin-mimic3"
+}

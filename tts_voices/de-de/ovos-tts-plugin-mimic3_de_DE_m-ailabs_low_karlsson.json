@@ -1,0 +1,5 @@
+{
+    "speaker": "karlsson",
+    "voice": "de_DE/m-ailabs_low",
+    "module": "ovos-tts-plugin-mimic3"
+}
