@@ -29,6 +29,9 @@ jobs:
       - name: Do the Synth
         run: |
           python auto_synth/scripts/create.py
+      - name: Convert to wav
+        run: |
+          python auto_synth/scripts/convert.py
       - name: Commit samples
         uses: EndBug/add-and-commit@v9
         with:
