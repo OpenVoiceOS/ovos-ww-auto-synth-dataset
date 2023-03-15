@@ -4,9 +4,9 @@ from os.path import dirname, isfile
 from time import sleep
 from ovos_plugin_manager.tts import load_tts_plugin
 
-WW_CFGS = f"auto_synth/ww_configs"
-VOICES_BASE = f"auto_synth/tts_voices"
-OUTPUT_BASE = f"auto_synth/synth_data"
+WW_CFGS = f"{dirname(dirname(__file__))}/ww_configs"
+VOICES_BASE = f"{dirname(dirname(__file__))}/tts_voices"
+OUTPUT_BASE = f"{dirname(dirname(__file__))}/synth_data"
 
 engines = {}
 
@@ -37,6 +37,7 @@ for cfg in listdir(WW_CFGS):
         wav_file = f"{OUTPUT_FOLDER}/{voice.replace('.json', f'.{engine.audio_ext}')}"
         if isfile(wav_file):
             continue
+        print(wav_file)
         kwargs = {}
         if "speaker" in cfg:
             kwargs["speaker"] = cfg["speaker"]

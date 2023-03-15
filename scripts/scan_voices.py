@@ -12,8 +12,8 @@ voice_ids = []
 
 for plug, voices in get_tts_lang_configs(LANG, include_dialects=True).items():
     for voice in voices:
-        spkr = voice.get("speaker") or voice.get("lang") or voice.get("gender") or "default"
-        name = voice.get("voice") or voice.get("model") or voice.get("lang") or LANG
+        spkr = voice.get("speaker") or voice.get("lang") or "default"
+        name = voice.get("voice") or voice.get("model") or voice.get("gender") or LANG
         voiceid = f"{plug}_{name}_{spkr}.json".replace("/", "_")
         voice_ids.append(voiceid)
         noise = ["meta", "priority", "display_name", "offline", "gender"]
