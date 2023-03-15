@@ -35,7 +35,7 @@ for cfg in listdir(WW_CFGS):
         else:
             engine = engines[m] = load_tts_plugin(m)(config=cfg)
         wav_file = f"{OUTPUT_FOLDER}/{voice.replace('.json', f'.{engine.audio_ext}')}"
-        if isfile(wav_file):
+        if isfile(wav_file) or isfile(wav_file + ".wav"):  # handle converted mp3 files
             continue
         print(wav_file)
         kwargs = {}
