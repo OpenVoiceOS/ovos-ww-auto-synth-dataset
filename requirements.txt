@@ -2,4 +2,4 @@ ovos-plugin-manager>=0.0.21
 ovos-tts-plugin-mimic3
 ovos-tts-plugin-deepponies
 ovos-tts-plugin-privox
-ovos-tts-plugin-google-tx>=0.0.4a1
+ovos-tts-plugin-google-tx>=0.0.4a3
