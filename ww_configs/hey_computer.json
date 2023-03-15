@@ -2,7 +2,7 @@
   "name": "Hey Computer",
   "lang": "en-us",
   "tts_voices": [
-    "ovos-tts-plugin-google-tx_default_en.json",
+    "ovos-tts-plugin-google-tx_en_en.json",
     "ovos-tts-plugin-privox_voice1_male.json",
     "ovos-tts-plugin-privox_voice2_female.json",
     "ovos-tts-plugin-deepponies_Barack Obama_en.json",
