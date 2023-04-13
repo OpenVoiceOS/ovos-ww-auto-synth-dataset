@@ -9,10 +9,6 @@ jobs:
   synth_and_publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: dev
-          path: auto_synth
       - name: Setup Python
         uses: actions/setup-python@v1
         with:
@@ -32,6 +28,10 @@ jobs:
       - name: Convert to wav
         run: |
           python auto_synth/scripts/convert.py
+      - uses: actions/checkout@v3
+        with:
+          ref: dev
+          path: auto_synth
       - name: Commit samples
         uses: EndBug/add-and-commit@v9
         with:
