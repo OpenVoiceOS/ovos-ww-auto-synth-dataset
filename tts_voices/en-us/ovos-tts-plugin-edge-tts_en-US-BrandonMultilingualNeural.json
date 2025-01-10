@@ -1,0 +1,6 @@
+{
+  "lang": "en",
+  "voice": "en-US-BrandonMultilingualNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}

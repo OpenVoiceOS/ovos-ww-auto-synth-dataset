@@ -1,0 +1,6 @@
+{
+  "lang": "en",
+  "voice": "en-NZ-MollyNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}

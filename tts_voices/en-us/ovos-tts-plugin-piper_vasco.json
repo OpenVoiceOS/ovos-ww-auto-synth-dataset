@@ -1,0 +1,6 @@
+{
+  "lang": "en",
+  "model": "https://huggingface.co/poisson-fish/piper-vasco/resolve/main/onnx/vasco.onnx",
+  "model_config": "https://huggingface.co/poisson-fish/piper-vasco/resolve/main/onnx/vasco.onnx.json",
+  "module": "ovos-tts-plugin-piper"
+}

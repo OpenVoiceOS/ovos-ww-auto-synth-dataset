@@ -1,0 +1,6 @@
+{
+  "lang": "en",
+  "voice": "en-HK-SamNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}

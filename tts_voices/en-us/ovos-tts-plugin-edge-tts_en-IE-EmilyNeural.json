@@ -1,0 +1,6 @@
+{
+  "lang": "en",
+  "voice": "en-IE-EmilyNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}

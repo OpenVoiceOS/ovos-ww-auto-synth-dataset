@@ -1,0 +1,5 @@
+{
+  "lang": "en",
+  "voice": "en_US-ljspeech-high",
+  "module": "ovos-tts-plugin-piper"
+}

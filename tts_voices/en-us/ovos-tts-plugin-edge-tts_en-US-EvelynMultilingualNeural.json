@@ -1,0 +1,6 @@
+{
+  "lang": "en",
+  "voice": "en-US-EvelynMultilingualNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}

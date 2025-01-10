@@ -1,0 +1,6 @@
+{
+  "lang": "en",
+  "voice": "en-GB-SoniaNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}
