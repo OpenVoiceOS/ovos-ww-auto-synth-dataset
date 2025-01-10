@@ -1,3 +1,4 @@
+import os
 import subprocess
 from os import listdir, makedirs, walk, rename
 from os.path import join, isdir, isfile, dirname
@@ -33,6 +34,9 @@ def convert_dir(SOURCE_DIR, DEST_DIR=None, overwrite=True):
                    "16000", "-ac", "1", "-f", "wav", converted, "-y"]
 
             subprocess.call(cmd)
+
+            if converted != wav:
+                os.remove(wav)
 
 
 for cfg in listdir(WW_CFGS):
