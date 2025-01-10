@@ -1,0 +1,6 @@
+{
+  "lang": "en",
+  "voice": "en_US-l2arctic-medium",
+  "speaker": "SVBI",
+  "module": "ovos-tts-plugin-piper"
+}

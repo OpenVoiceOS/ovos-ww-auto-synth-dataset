@@ -1,0 +1,6 @@
+{
+  "lang": "de",
+  "voice": "de_DE-thorsten_emotional-medium",
+  "speaker": "angry",
+  "module": "ovos-tts-plugin-piper"
+}

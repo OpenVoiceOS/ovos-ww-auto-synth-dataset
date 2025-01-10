@@ -1,0 +1,6 @@
+{
+  "lang": "de",
+  "voice": "de-CH-LeniNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}

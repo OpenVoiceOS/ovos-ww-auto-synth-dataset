@@ -1,0 +1,6 @@
+{
+  "lang": "de",
+  "voice": "de-AT-IngridNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}

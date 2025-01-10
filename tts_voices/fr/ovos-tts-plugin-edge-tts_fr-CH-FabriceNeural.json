@@ -1,0 +1,6 @@
+{
+  "lang": "fr",
+  "voice": "fr-CH-FabriceNeural",
+  "rate": "+0%",
+  "module": "ovos-tts-plugin-edge-tts"
+}
