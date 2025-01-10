@@ -5,7 +5,7 @@ from pprint import pprint
 
 from ovos_plugin_manager.tts import get_tts_lang_configs
 
-LANGS = ["en-us", "es-es", "de-de", "fr-fr", "it-it", "pt-pt"]
+LANGS = ["en", "es", "de", "fr", "it", "pt"]
 for LANG in LANGS:
     VOICES_FOLDER = f"{dirname(dirname(__file__))}/tts_voices/{LANG}"
     makedirs(VOICES_FOLDER, exist_ok=True)

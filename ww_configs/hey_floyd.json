@@ -1,6 +1,6 @@
 {
   "name": "Hey Floyd",
-  "lang": "en-us",
+  "lang": "en",
   "tts_voices": [
     "ovos-tts-plugin-edge-tts_en-US-AlloyMultilingualNeural.json",
     "ovos-tts-plugin-piper_en_US-bryce-medium.json",

@@ -16,7 +16,7 @@ for cfg in listdir(WW_CFGS):
     with open(f"{WW_CFGS}/{cfg}") as f:
         CONF = json.load(f)
     
-    LANG = CONF.get("lang", "en-us")
+    LANG = CONF.get("lang", "en")
     WW = CONF["name"]
     VOICE_IDS = CONF.get("tts_voices") or []
 
