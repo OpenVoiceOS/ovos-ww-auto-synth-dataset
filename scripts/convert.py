@@ -36,6 +36,8 @@ def convert_dir(SOURCE_DIR, DEST_DIR=None, overwrite=True):
 
 
 for cfg in listdir(WW_CFGS):
+    if not cfg.endswith(".json"):
+        continue
     with open(f"{WW_CFGS}/{cfg}") as f:
         CONF = json.load(f)
     ww = cfg.replace(".json", "")

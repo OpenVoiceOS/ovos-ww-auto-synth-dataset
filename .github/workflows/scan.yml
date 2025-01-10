@@ -23,7 +23,7 @@ jobs:
           python -m pip install build wheel uv
       - name: Install TTS Plugins
         run: |
-          python -m uv pip install --system -r auto_synth/requirements.txt
+          python -m uv pip install --system -r auto_synth/requirements.txt --pre
       - name: Scan Voices
         run: |
           python auto_synth/scripts/scan_voices.py
