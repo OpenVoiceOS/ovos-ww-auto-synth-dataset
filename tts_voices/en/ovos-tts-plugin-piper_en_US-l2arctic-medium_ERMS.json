@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-l2arctic-medium",
-  "speaker": "ERMS",
+  "speaker": 6,
   "module": "ovos-tts-plugin-piper"
 }

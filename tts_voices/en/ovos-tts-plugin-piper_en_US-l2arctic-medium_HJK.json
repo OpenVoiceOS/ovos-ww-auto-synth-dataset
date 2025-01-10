@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-l2arctic-medium",
-  "speaker": "HJK",
+  "speaker": 11,
   "module": "ovos-tts-plugin-piper"
 }

@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-l2arctic-medium",
-  "speaker": "BWC",
+  "speaker": 20,
   "module": "ovos-tts-plugin-piper"
 }

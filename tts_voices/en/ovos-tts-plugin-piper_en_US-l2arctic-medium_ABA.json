@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-l2arctic-medium",
-  "speaker": "ABA",
+  "speaker": 21,
   "module": "ovos-tts-plugin-piper"
 }

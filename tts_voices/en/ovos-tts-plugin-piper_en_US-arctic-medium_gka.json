@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-arctic-medium",
-  "speaker": "gka",
+  "speaker": 17,
   "module": "ovos-tts-plugin-piper"
 }

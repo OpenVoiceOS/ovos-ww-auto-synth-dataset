@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-l2arctic-medium",
-  "speaker": "MBMPS",
+  "speaker": 7,
   "module": "ovos-tts-plugin-piper"
 }

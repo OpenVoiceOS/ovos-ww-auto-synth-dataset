@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_GB-semaine-medium",
-  "speaker": "prudence",
+  "speaker": 0,
   "module": "ovos-tts-plugin-piper"
 }

@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-arctic-medium",
-  "speaker": "fem",
+  "speaker": 10,
   "module": "ovos-tts-plugin-piper"
 }

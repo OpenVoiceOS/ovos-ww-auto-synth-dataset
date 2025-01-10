@@ -1,6 +1,6 @@
 {
   "lang": "de",
   "voice": "de_DE-mls-medium",
-  "speaker": "136",
+  "speaker": 68,
   "module": "ovos-tts-plugin-piper"
 }

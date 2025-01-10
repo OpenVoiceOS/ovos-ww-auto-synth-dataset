@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-libritts-high",
-  "speaker": "p724",
+  "speaker": 159,
   "module": "ovos-tts-plugin-piper"
 }

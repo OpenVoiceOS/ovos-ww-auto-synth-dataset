@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_US-l2arctic-medium",
-  "speaker": "NCC",
+  "speaker": 13,
   "module": "ovos-tts-plugin-piper"
 }

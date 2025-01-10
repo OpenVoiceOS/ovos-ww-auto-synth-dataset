@@ -1,6 +1,6 @@
 {
   "lang": "es",
   "voice": "es_ES-sharvard-medium",
-  "speaker": "F",
+  "speaker": 1,
   "module": "ovos-tts-plugin-piper"
 }

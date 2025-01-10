@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_GB-aru-medium",
-  "speaker": "09",
+  "speaker": 4,
   "module": "ovos-tts-plugin-piper"
 }

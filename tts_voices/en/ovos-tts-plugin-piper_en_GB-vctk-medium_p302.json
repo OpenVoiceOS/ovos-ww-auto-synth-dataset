@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_GB-vctk-medium",
-  "speaker": "p302",
+  "speaker": 105,
   "module": "ovos-tts-plugin-piper"
 }

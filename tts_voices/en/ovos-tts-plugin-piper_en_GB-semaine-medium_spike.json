@@ -1,6 +1,6 @@
 {
   "lang": "en",
   "voice": "en_GB-semaine-medium",
-  "speaker": "spike",
+  "speaker": 1,
   "module": "ovos-tts-plugin-piper"
 }
