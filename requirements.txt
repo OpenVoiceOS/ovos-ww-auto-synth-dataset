@@ -1,6 +1,5 @@
 ovos-plugin-manager>=0.0.21
-ovos-tts-plugin-mimic3
 ovos-tts-plugin-piper
 ovos-tts-plugin-google-tx>=0.0.4a3
 ovos-tts-plugin-edge-tts
-ovos-tts-plugin-deepponies
+#ovos-tts-plugin-deepponies
